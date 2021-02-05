@@ -2,6 +2,7 @@ package main
 
 import (
 	"os"
+	"strconv"
 
 	fiber "github.com/gofiber/fiber/v2"
 )
@@ -18,5 +19,5 @@ func main() {
 			Name: "Matthew",
 		})
 	})
-	app.Listen(os.Getenv("PORT"))
+	app.Listen(":"+os.Getenv("PORT"))
 }
