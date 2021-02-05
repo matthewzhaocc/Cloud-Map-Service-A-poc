@@ -2,7 +2,6 @@ package main
 
 import (
 	"os"
-	"strconv"
 
 	fiber "github.com/gofiber/fiber/v2"
 )
